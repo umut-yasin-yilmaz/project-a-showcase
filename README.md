@@ -40,6 +40,14 @@ Project A follows a structured production workflow:
 - Risk register tracking for recurring production risks
 - Small, checkpoint-style updates with clear intent
 
+## Included Public Documents
+
+- `docs/blueprint.md` (project pitch, target session, core loop)
+- `docs/plan_mvp.md` (MVP execution guide)
+- `docs/plan_mvp_to_demo.md` (MVP -> Demo transition guide)
+- `docs/qa_checklist.md` (test gate checklist)
+- `docs/risk_register.md` (production risk tracking)
+
 Workflow note:
 - AI is used as an implementation and iteration assistant.
 - Final design priorities and acceptance criteria are reviewed manually.
