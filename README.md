@@ -1,48 +1,89 @@
 # Project A Showcase
 
-Public showcase repository for **Project A** (main game repository is private).
+Public-facing showcase for **Project A**.  
+Main development repository is private to protect commercial production content.
 
-## Why this repository exists
+**Current Milestone:** MVP (`MVP-01` -> `MVP-22`)  
+**Current Focus:** Core combat loop, wave flow, and economy readability
 
-Project A is a commercial solo game project targeting Steam release.  
-To protect the full production code and assets, the main repository is kept private.
+## Overview
 
-This public repository is used to present:
-- Project direction and core design
-- Development workflow quality
-- Milestone progress snapshots
-
-## Project Summary
-
-- Genre: 2D roguelite / survivor-like
-- Engine: Godot 4.6.1
-- Language: GDScript
-- Development style: AI-assisted solo workflow
+Project A is a 2D roguelite/survivor-like game inspired by Brotato-style pacing.
 
 Core loop:
-1. Fight enemies in timed waves
-2. Collect material drops
-3. Buy upgrades in an inter-wave market
-4. Survive all waves
+- Fight enemies in timed waves
+- Collect materials from defeated enemies
+- Buy upgrades between waves
+- Survive the full run
 
-## Professional Workflow (Public Highlights)
+## Current Scope (Showcase View)
 
-- Blueprint-driven scope control
-- Step-by-step MVP/Demo task tables
-- QA checklist gates
-- Risk register tracking
-- Checkpoint commit discipline
+- Engine: Godot 4.6.1
+- Language: Typed GDScript (production)
+- Target platform: PC (Steam-first)
+- Development model: AI-assisted solo developer workflow
+- Public objective: demonstrate process quality and project direction safely
 
-## What is intentionally NOT public here
+## Public Repository Purpose
 
-- Full production source code
-- Commercial game assets and pipeline details
-- Any secrets, credentials, deployment internals
+This repository is intentionally curated to show:
+- Design direction and MVP boundaries
+- Development discipline and planning quality
+- Progress snapshots suitable for portfolio/recruiting
+
+## Professional Workflow
+
+Project A follows a structured production workflow:
+- Scope control through blueprint and explicit non-goals
+- MVP and Demo roadmap with completion criteria
+- QA checklist gates before milestone closure
+- Risk register tracking for recurring production risks
+- Small, checkpoint-style updates with clear intent
+
+Workflow note:
+- AI is used as an implementation and iteration assistant.
+- Final design priorities and acceptance criteria are reviewed manually.
+
+## Public/Private Boundary
+
+### Public in this repository
+
+- Project vision and high-level gameplay goals
+- Safe progress updates and milestone context
+- Process artifacts that do not expose production internals
+
+### Intentionally private
+
+- Full gameplay source code and architecture internals
+- Commercial art/audio assets and content pipeline
+- Balance datasets, tuning internals, deployment details
+- Any secrets, credentials, or release-sensitive information
+
+## Why this strategy
+
+For a commercial indie project, this setup balances:
+- **Protection:** main production content stays private
+- **Visibility:** consistent public proof of progress and professionalism
+- **Credibility:** clear workflow and milestone-based execution
 
 ## Status
 
-MVP development is in progress in the private main repository.
+MVP development continues in the private main repository.  
+This showcase repo is updated with safe, portfolio-ready progress context.
 
 ---
 
-For collaboration, recruiting, or portfolio review, this repo provides the development approach and process quality without exposing protected production content.
+## Türkçe Kısa Özet
+
+Bu depo, `Project A` için herkese açık vitrin deposudur.  
+Oyunun asıl geliştirme deposu, ticari içerik ve üretim detaylarını korumak için private tutulur.
+
+Bu public showcase içinde:
+- Projenin yönü ve MVP kapsamı
+- Geliştirme disiplinini gösteren profesyonel süreç yaklaşımı
+- Güvenli ve paylaşılabilir ilerleme bilgileri
+
+Bilerek paylaşılmayanlar:
+- Tam kaynak kod
+- Ticari varlıklar (asset/pipeline detayları)
+- Gizli bilgiler ve release süreç detayları
