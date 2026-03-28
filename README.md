@@ -57,7 +57,7 @@ Maintainer: export → zip → Release steps and **release notes template** live
 | Document | What it is |
 |----------|------------|
 | [`docs/blueprint.md`](docs/blueprint.md) | Pitch, session target, core loop, scope / non-goals |
-| [`docs/qa_checklist.md`](docs/qa_checklist.md) | MVP + Demo QA gates (Turkish checklist, aligned with shipped MVP) |
+| [`docs/qa_checklist.md`](docs/qa_checklist.md) | MVP + Demo QA gates (EN + short TR summary; aligned with shipped MVP) |
 | [`docs/risk_register.md`](docs/risk_register.md) | Production risks and mitigations |
 | [`docs/credits_and_licenses.md`](docs/credits_and_licenses.md) | Godot MIT, credits, rights |
 
