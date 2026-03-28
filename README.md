@@ -1,12 +1,13 @@
 # Project A Showcase
 
-Public-facing showcase for **Project A**.  
-Main development repository is private to protect commercial production content.
+**Private** curated showcase for **Project A** (this GitHub repository is not public).  
+Only you—and anyone you grant access—can open this repo, its README, and Releases.  
+Main development repository is also private to protect commercial production content.
 
 **Milestone:** **MVP shipped** — `MVP-01` → `MVP-22` complete in the private repo; Git tag **`mvp-0.1`**.  
-**Current focus:** Demo / portfolio-facing updates (screenshots, README, safe docs) while keeping source and assets private.
+**Current focus:** Demo / portfolio-facing updates (screenshots, README, safe docs) while keeping source and assets out of this narrative layer.
 
-**This page reflects the MVP (`mvp-0.1`) build** as a safe public vitrin (no full source or commercial assets here).
+**This README reflects the MVP (`mvp-0.1`) build** as a safe vitrin layer: no full source or commercial assets here—only curated docs and screenshots.
 
 ## MVP build snapshots
 
@@ -33,9 +34,9 @@ Core loop:
 - Language: Typed GDScript (production)
 - Target platform: PC (Steam-first)
 - Development model: AI-assisted solo developer workflow
-- Public objective: demonstrate process quality, shipped MVP discipline, and direction safely (no full source here)
+- Showcase objective: demonstrate process quality, shipped MVP discipline, and direction safely (no full source here)
 
-## Public Repository Purpose
+## Showcase repository purpose
 
 This repository is intentionally curated to show:
 
@@ -53,7 +54,7 @@ Project A follows a structured production workflow:
 - Risk register tracking for recurring production risks
 - Small, checkpoint-style updates with clear intent
 
-## Included Public Documents
+## Documents in this repository
 
 - [`docs/blueprint.md`](docs/blueprint.md) (project pitch, target session, core loop)
 - [`docs/qa_checklist.md`](docs/qa_checklist.md) (test gate checklist)
@@ -67,15 +68,15 @@ Workflow note:
 - AI is used as an implementation and iteration assistant.
 - Final design priorities and acceptance criteria are reviewed manually.
 
-## Public/Private Boundary
+## Boundary: this repo vs dev repo
 
-### Public in this repository
+### Curated in this showcase repository
 
 - Project vision and high-level gameplay goals
 - Safe progress updates and **MVP-shipped** milestone context
 - Process artifacts that do not expose production internals
 
-### Intentionally private
+### Stays in the private dev repository only
 
 - Full gameplay source code and architecture internals
 - Commercial art/audio assets and content pipeline
@@ -87,7 +88,7 @@ Workflow note:
 For a commercial indie project, this setup balances:
 
 - **Protection:** main production content stays private
-- **Visibility:** consistent public proof of progress and professionalism
+- **Controlled visibility:** proof of progress via **direct link** or access you grant—not anonymous browsing of this repo
 - **Credibility:** clear workflow and milestone-based execution
 
 ## Status
@@ -97,9 +98,9 @@ This showcase repo is updated with **safe, portfolio-ready** context aligned wit
 
 ## Downloads & distribution
 
-- **Today:** This showcase has **no public game binary** here—only docs and screenshots. The playable build lives in the **private** dev repo.
-- **Before the Steam demo (optional):** A **pre-demo / playtest** build may be published via **GitHub Releases** on this repository. Release titles and notes will clearly say **pre-demo** (not the final store demo).
-- **After the Steam demo is live:** Older GitHub Release builds can be **removed or archived**; the **single official demo link** becomes **Steam**. This README will be updated so there are no dead download links.
+- **Today:** No game binary in git here—only docs and screenshots. The playable build lives in the **private** dev repo.
+- **Before the Steam demo (optional):** A **pre-demo / playtest** build may be published via **GitHub Releases** on this repository. Because the repo is **private**, only accounts with access can see or download those assets. Release titles and notes will clearly say **pre-demo** (not the final store demo).
+- **After the Steam demo is live:** Older GitHub Release builds can be **removed or archived**; the **single official demo link** for everyone becomes **Steam**. This README will be updated so there are no dead download links.
 - **Principle:** Early builds are **non-commercial**; the paid/commercial path stays on the store when you are ready.
 
 Step-by-step checklist for maintainers: [`docs/distribution_plan.md`](docs/distribution_plan.md).
@@ -108,13 +109,14 @@ Step-by-step checklist for maintainers: [`docs/distribution_plan.md`](docs/distr
 
 ## Türkçe vitrin
 
-**Project A** için herkese açık vitrin deposu.  
-Oyunun asıl geliştirme deposu, ticari içerik ve üretim detaylarını korumak için **private** tutulur.
+**Project A** için **private** vitrin deposu (bu GitHub reposu public değil).  
+Repoyu yalnızca sen ve erişim verdiğin hesaplar görebilir; README ve Releases de buna tabidir.  
+Asıl geliştirme deposu da ticari içerik için **private** kalır.
 
 **Milestone:** **MVP tamamlandı** — private repoda `MVP-01` → `MVP-22`; Git etiketi **`mvp-0.1`**.  
-**Güncel odak:** Kaynak ve assetleri private tutarken demo / portfolio odaklı güncellemeler (ekran görüntüleri, README, güvenli dokümanlar).
+**Güncel odak:** Kaynak ve assetleri ayrı tutarken demo / portfolio odaklı güncellemeler (ekran görüntüleri, README, güvenli dokümanlar).
 
-**Bu sayfa, MVP (`mvp-0.1`) sürümünü** güvenli bir public vitrin olarak yansıtır (burada tam kaynak veya ticari asset yoktur).
+**Bu README, MVP (`mvp-0.1`) sürümünü** güvenli bir vitrin katmanı olarak özetler (tam kaynak veya ticari asset yok; seçilmiş doküman ve görseller var).
 
 ### MVP sürümünden ekran görüntüleri
 
@@ -139,7 +141,7 @@ Oyunun asıl geliştirme deposu, ticari içerik ve üretim detaylarını korumak
 - **Dil:** Typed GDScript (production)
 - **Hedef platform:** PC (Steam-first)
 - **Geliştirme modeli:** AI destekli solo geliştirici süreci
-- **Public amaç:** Kaynak sızdırmadan süreç kalitesi, MVP disiplini ve yönü güvenli şekilde göstermek
+- **Vitrin amacı:** Kaynak sızdırmadan süreç kalitesi, MVP disiplini ve yönü güvenli şekilde göstermek
 
 ### Bu reponun amacı
 
@@ -155,7 +157,7 @@ Oyunun asıl geliştirme deposu, ticari içerik ve üretim detaylarını korumak
 - Tekrarlayan üretim riskleri için **risk register**
 - Niyeti net, küçük checkpoint güncellemeleri
 
-### Dahil edilen public dokümanlar
+### Bu repodaki dokümanlar
 
 - [`docs/blueprint.md`](docs/blueprint.md) — pitch, oturum hedefi, çekirdek döngü
 - [`docs/qa_checklist.md`](docs/qa_checklist.md) — test kapısı checklist
@@ -166,15 +168,15 @@ Oyunun asıl geliştirme deposu, ticari içerik ve üretim detaylarını korumak
 
 **Süreç notu:** AI uygulama ve iterasyon asistanı olarak kullanılır; tasarım öncelikleri ve kabul kriterleri manuel gözden geçirilir.
 
-### Public / private sınırı
+### Sınır: bu repo vs geliştirme reposu
 
-**Bu repoda bilerek olanlar:** vizyon, üst seviye oyun hedefleri, MVP bağlamı, üretim içine sızmayan süreç dokümanları.
+**Bu vitrin reposunda bilerek olanlar:** vizyon, üst seviye oyun hedefleri, MVP bağlamı, üretim içine sızmayan süreç dokümanları.
 
-**Private repoda kalanlar:** tam oyun kaynağı ve mimari iç detaylar, ticari sanat/ses ve pipeline, implementasyon düzeyinde balance/ince ayar ve dağıtım detayları, gizli bilgiler.
+**Yalnızca private geliştirme reposunda kalanlar:** tam oyun kaynağı ve mimari iç detaylar, ticari sanat/ses ve pipeline, implementasyon düzeyinde balance/ince ayar ve dağıtım detayları, gizli bilgiler.
 
 ### Neden bu strateji?
 
-Ticari indie üretim için: **koruma** (ana içerik private), **görünürlük** (tutarlı public kanıt), **güvenilirlik** (net süreç ve milestone).
+Ticari indie üretim için: **koruma** (ana içerik private), **kontrollü görünürlük** (doğrudan link veya verdiğin erişimle kanıt; anonim tarama yok), **güvenilirlik** (net süreç ve milestone).
 
 ### Durum
 
@@ -183,7 +185,7 @@ Ticari indie üretim için: **koruma** (ana içerik private), **görünürlük**
 ### İndirmeler ve dağıtım
 
 - **Şu an:** Bu vitrinde **oyun binary’si yok** — yalnızca doküman ve ekran görüntüleri. Oynanabilir build **private** geliştirme deposunda.
-- **Steam demo öncesi (isteğe bağlı):** **Ön-demo / playtest** sürümü bu repoda **GitHub Releases** ile yayınlanabilir. Başlık ve notlarda **pre-demo** olduğu açıkça yazılır (mağaza demosu değildir).
+- **Steam demo öncesi (isteğe bağlı):** **Ön-demo / playtest** sürümü bu repoda **GitHub Releases** ile yayınlanabilir. Repo **private** olduğu için indirmeyi yalnızca erişimi olan hesaplar yapabilir. Başlık ve notlarda **pre-demo** olduğu açıkça yazılır (mağaza demosu değildir).
 - **Steam demo yayında olduktan sonra:** Eski GitHub Release’ler **kaldırılabilir veya arşivlenir**; **tek resmi demo bağlantısı Steam** olur. Bu README güncellenir; kırık indirme linki bırakılmaz.
 - **İlke:** Bu erken build’ler **ticari gelir hedefi taşımaz**; ücretli/yayın yolu mağazada netleşir.
 
