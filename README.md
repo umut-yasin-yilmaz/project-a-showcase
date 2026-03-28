@@ -58,6 +58,7 @@ Project A follows a structured production workflow:
 - [`docs/blueprint.md`](docs/blueprint.md) (project pitch, target session, core loop)
 - [`docs/qa_checklist.md`](docs/qa_checklist.md) (test gate checklist)
 - [`docs/risk_register.md`](docs/risk_register.md) (production risk tracking)
+- [`docs/distribution_plan.md`](docs/distribution_plan.md) (downloads / Releases / Steam handoff)
 
 **Suggested reading order:** blueprint → QA checklist → risk register.
 
@@ -93,6 +94,15 @@ For a commercial indie project, this setup balances:
 
 **MVP is complete** in the private main repository (`mvp-0.1`).  
 This showcase repo is updated with **safe, portfolio-ready** context aligned with that milestone.
+
+## Downloads & distribution
+
+- **Today:** This showcase has **no public game binary** here—only docs and screenshots. The playable build lives in the **private** dev repo.
+- **Before the Steam demo (optional):** A **pre-demo / playtest** build may be published via **GitHub Releases** on this repository. Release titles and notes will clearly say **pre-demo** (not the final store demo).
+- **After the Steam demo is live:** Older GitHub Release builds can be **removed or archived**; the **single official demo link** becomes **Steam**. This README will be updated so there are no dead download links.
+- **Principle:** Early builds are **non-commercial**; the paid/commercial path stays on the store when you are ready.
+
+Step-by-step checklist for maintainers: [`docs/distribution_plan.md`](docs/distribution_plan.md).
 
 ---
 
@@ -150,6 +160,7 @@ Oyunun asıl geliştirme deposu, ticari içerik ve üretim detaylarını korumak
 - [`docs/blueprint.md`](docs/blueprint.md) — pitch, oturum hedefi, çekirdek döngü
 - [`docs/qa_checklist.md`](docs/qa_checklist.md) — test kapısı checklist
 - [`docs/risk_register.md`](docs/risk_register.md) — üretim risk takibi
+- [`docs/distribution_plan.md`](docs/distribution_plan.md) — indirme / Releases / Steam geçişi
 
 **Önerilen okuma sırası:** blueprint → QA checklist → risk register.
 
@@ -168,3 +179,12 @@ Ticari indie üretim için: **koruma** (ana içerik private), **görünürlük**
 ### Durum
 
 **MVP**, private ana repoda **`mvp-0.1`** ile tamamlandı. Bu vitrin deposu, aynı milestone ile hizalı **güvenli, portfolio** içeriği sunar.
+
+### İndirmeler ve dağıtım
+
+- **Şu an:** Bu vitrinde **oyun binary’si yok** — yalnızca doküman ve ekran görüntüleri. Oynanabilir build **private** geliştirme deposunda.
+- **Steam demo öncesi (isteğe bağlı):** **Ön-demo / playtest** sürümü bu repoda **GitHub Releases** ile yayınlanabilir. Başlık ve notlarda **pre-demo** olduğu açıkça yazılır (mağaza demosu değildir).
+- **Steam demo yayında olduktan sonra:** Eski GitHub Release’ler **kaldırılabilir veya arşivlenir**; **tek resmi demo bağlantısı Steam** olur. Bu README güncellenir; kırık indirme linki bırakılmaz.
+- **İlke:** Bu erken build’ler **ticari gelir hedefi taşımaz**; ücretli/yayın yolu mağazada netleşir.
+
+Adım adım kontrol listesi: [`docs/distribution_plan.md`](docs/distribution_plan.md).
