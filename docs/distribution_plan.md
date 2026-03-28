@@ -2,18 +2,35 @@
 
 This file is the **step-by-step** companion to the [Downloads & distribution](../README.md#downloads--distribution) section in the root README.
 
-**Repository visibility:** This showcase repo is **private**. Anonymous visitors cannot read the README or download Releases; only you and collaborators (or future invitees) can.
+## Showcase repo visibility (planned lifecycle)
+
+1. **Curation phase (now):** Keep the showcase repo **private** while you polish README, screenshots, and `docs/`—so work-in-progress is not publicly visible.
+2. **When the vitrin is ready:** Set the repo back to **public**:
+   - **GitHub web:** Repository **Settings** → **Danger zone** → **Change repository visibility** → **Public**, or  
+   - **CLI:** `gh repo edit umut-yasin-yilmaz/project-a-showcase --visibility public --accept-visibility-change-consequences`
+3. **After it is public:** Pin **project-a-showcase** on your profile (then **everyone** can see the pin and the repo). Optionally set **bio** / **website** to the showcase or future store link.
+
+While the repo is **private**, only you and collaborators can read the README and download **Releases**.
 
 ## Step 0 — Baseline
 
 - Private dev repo: source of truth, regular push, milestone tags.
-- **Private** showcase: README (EN + TR), screenshots, `docs/` (blueprint, QA, risk), boundaries documented.
+- Showcase repo: **private during curation**; content target is EN + TR README, screenshots, `docs/` (blueprint, QA, risk), boundaries documented—then **public** again (see lifecycle above).
 
-## Step 1 — GitHub profile (you, browser)
+## Step 0.5 — Flip showcase to public (when vitrin is finalized)
 
-- You may still **pin** `project-a-showcase` for your own dashboard; **other users typically will not see private pins** on your public profile.
-- For **anonymous** portfolio visibility (recruiters, players), use something **public**: profile README, a future **public** repo, **Steam** / **Itch** page, or a personal site—not this private repo alone.
-- Optionally set **bio** and **website** to your **public** link of choice.
+Do this **once** you are happy with the showcase content (no more half-finished edits you care about hiding):
+
+1. Run the visibility change (web UI or `gh repo edit ... --visibility public --accept-visibility-change-consequences`).
+2. Quick pass: open the repo in a **logged-out** browser or incognito to confirm README and default branch look correct.
+3. Continue with **Step 1** (pin + bio/website).
+
+## Step 1 — GitHub profile (after showcase is public)
+
+- **Pin** `project-a-showcase` on your GitHub profile (visible to visitors once the repo is public).
+- Optionally set **bio** and **website** (showcase URL, later Steam/Itch).
+
+**While the showcase is still private:** pinning helps only you on your profile; defer the “portfolio pin” until **Step 0.5** is done.
 
 ## Step 2 — First playtest / pre-demo Release (when you have a build)
 
@@ -25,7 +42,7 @@ This file is the **step-by-step** companion to the [Downloads & distribution](..
 6. Description: short notes + “**Pre-demo only**; final demo will be on Steam.”
 7. Attach the zip as a release asset; **Publish**.
 
-**Note:** Because the repo is private, testers need **GitHub access** to this repository (or you distribute the zip another way).
+**Note:** If you publish a Release **while the repo is still private**, testers need **GitHub access** (or send the zip elsewhere). After the repo is **public**, Release downloads work like any public GitHub project.
 
 ## Step 3 — After Steam demo goes live
 
