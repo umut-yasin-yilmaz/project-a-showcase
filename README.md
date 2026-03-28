@@ -105,7 +105,8 @@ This showcase repo is updated with **safe, portfolio-ready** context aligned wit
 - **After the Steam demo is live:** Older GitHub Release builds can be **removed or archived**; the **single official demo link** for everyone becomes **Steam**. This README will be updated so there are no dead download links.
 - **Principle:** Early builds are **non-commercial**; the paid/commercial path stays on the store when you are ready.
 
-Step-by-step checklist for maintainers: [`docs/distribution_plan.md`](docs/distribution_plan.md).
+Step-by-step checklist for maintainers: [`docs/distribution_plan.md`](docs/distribution_plan.md).  
+Before switching this repo to **public:** [`docs/before_public_checklist.md`](docs/before_public_checklist.md).
 
 ---
 
@@ -167,6 +168,7 @@ Private iken: README ve Releases’i yalnızca sen ve erişim verdiğin hesaplar
 - [`docs/qa_checklist.md`](docs/qa_checklist.md) — test kapısı checklist
 - [`docs/risk_register.md`](docs/risk_register.md) — üretim risk takibi
 - [`docs/distribution_plan.md`](docs/distribution_plan.md) — indirme / Releases / Steam geçişi
+- [`docs/before_public_checklist.md`](docs/before_public_checklist.md) — public yapmadan önce kontrol
 
 **Önerilen okuma sırası:** blueprint → QA checklist → risk register.
 
@@ -193,4 +195,5 @@ Ticari indie üretim için: **koruma** (ana içerik private), **kontrollü vitri
 - **Steam demo yayında olduktan sonra:** Eski GitHub Release’ler **kaldırılabilir veya arşivlenir**; **tek resmi demo bağlantısı Steam** olur. Bu README güncellenir; kırık indirme linki bırakılmaz.
 - **İlke:** Bu erken build’ler **ticari gelir hedefi taşımaz**; ücretli/yayın yolu mağazada netleşir.
 
-Adım adım kontrol listesi: [`docs/distribution_plan.md`](docs/distribution_plan.md).
+Adım adım kontrol listesi: [`docs/distribution_plan.md`](docs/distribution_plan.md).  
+Repoyu tekrar **public** yapmadan önce: [`docs/before_public_checklist.md`](docs/before_public_checklist.md).

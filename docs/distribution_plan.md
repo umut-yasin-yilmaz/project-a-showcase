@@ -21,6 +21,7 @@ While the repo is **private**, only you and collaborators can read the README an
 
 Do this **once** you are happy with the showcase content (no more half-finished edits you care about hiding):
 
+0. Optional gate: walk [`docs/before_public_checklist.md`](before_public_checklist.md).
 1. Run the visibility change (web UI or `gh repo edit ... --visibility public --accept-visibility-change-consequences`).
 2. Quick pass: open the repo in a **logged-out** browser or incognito to confirm README and default branch look correct.
 3. Continue with **Step 1** (pin + bio/website).
