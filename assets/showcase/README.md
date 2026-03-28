@@ -1,19 +1,19 @@
 # Showcase media (`assets/showcase/`)
 
-This folder holds **safe, public** images for the repository README (vitrin).
+Safe, public images for the repository README.
 
-## Recommended files
+## Committed files
 
-| File | Purpose |
-|------|---------|
-| `hero-mvp.svg` | Default banner (committed). Replace optional. |
-| `mvp-gameplay.gif` | Short loop (~5–15s) of core loop (waves / combat / shop). |
-| `mvp-01-wave.png` | Still: combat or wave moment |
-| `mvp-02-market.png` | Still: between-waves shop or upgrade choice |
-| `mvp-03-run.png` | Still: UI or run overview |
+| File | Role |
+|------|------|
+| `mvp-screenshot-01.png` … `mvp-screenshot-03.png` | MVP build screenshots (copied from private `project-a/docs` captures; keep in sync when you refresh the vitrin). |
+| `hero-mvp.svg` | Optional text banner until you replace with branded art. |
 
-Use your own captures from the **MVP build** aligned with tag `mvp-0.1`. Do not commit raw commercial source assets from the private repo—only **crops/screens** suitable for a public page.
+## Adding more media
+
+- Prefer short GIFs or PNGs from builds aligned with tag **`mvp-0.1`** (or update README captions when the build changes).
+- Do not commit raw commercial source assets from the private repo—only crops/screens suitable for a public page.
 
 ## README wiring
 
-`README.md` at repo root references paths under `assets/showcase/`. After adding `mvp-gameplay.gif` or PNGs, update the image markdown in `README.md` if your filenames differ.
+`README.md` at repo root references `assets/showcase/mvp-screenshot-0*.png` and `hero-mvp.svg`. If you rename files, update those paths.
