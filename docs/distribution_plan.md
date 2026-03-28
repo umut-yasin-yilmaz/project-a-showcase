@@ -55,10 +55,10 @@ Detailed steps: [`docs/godot_export_and_release.md`](godot_export_and_release.md
 2. **Remove or archive** obsolete GitHub Release playtest assets if needed.
 3. Refresh any download wording so it matches reality.
 
-## Step 4 — Store compliance
+## Step 4 — Store compliance (when you have a store page)
 
 - **Steam:** Fill **AI disclosure** (and other required fields) per [current Steamworks rules](https://partner.steamgames.com/) when you publish the store page.
-- Keep a short **credits** note (Godot MIT, third-party assets if any).
+- Keep [`docs/credits_and_licenses.md`](credits_and_licenses.md) updated and mirror the essentials in-game / on the store when required.
 
 ## Step 5 — Optional automation (later)
 

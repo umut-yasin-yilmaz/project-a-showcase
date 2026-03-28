@@ -66,6 +66,7 @@ Project A follows a structured production workflow:
 - [`docs/step1_pin_profile.md`](docs/step1_pin_profile.md) (after repo is public)
 - [`docs/release_playtest_template.md`](docs/release_playtest_template.md) (playtest Release copy-paste)
 - [`docs/godot_export_and_release.md`](docs/godot_export_and_release.md) (Godot → zip → GitHub Release)
+- [`docs/credits_and_licenses.md`](docs/credits_and_licenses.md) (Godot MIT, credits, rights)
 
 **Suggested reading order:** blueprint → QA checklist → risk register.
 
@@ -174,6 +175,7 @@ Private iken: README ve Releases’i yalnızca sen ve erişim verdiğin hesaplar
 - [`docs/risk_register.md`](docs/risk_register.md) — üretim risk takibi
 - [`docs/distribution_plan.md`](docs/distribution_plan.md) — dağıtım adımları (genel)
 - [`docs/godot_export_and_release.md`](docs/godot_export_and_release.md) — Godot → zip → Release
+- [`docs/credits_and_licenses.md`](docs/credits_and_licenses.md) — Godot MIT, credits, haklar
 - [`docs/before_public_checklist.md`](docs/before_public_checklist.md) — public yapmadan önce kontrol
 - [`docs/step1_pin_profile.md`](docs/step1_pin_profile.md) — repo public olduktan sonra pin
 - [`docs/release_playtest_template.md`](docs/release_playtest_template.md) — playtest Release metin şablonu
@@ -181,6 +183,8 @@ Private iken: README ve Releases’i yalnızca sen ve erişim verdiğin hesaplar
 **Önerilen okuma sırası:** blueprint → QA checklist → risk register.
 
 **Süreç notu:** AI uygulama ve iterasyon asistanı olarak kullanılır; tasarım öncelikleri ve kabul kriterleri manuel gözden geçirilir.
+
+**Lisans ve credits:** [`docs/credits_and_licenses.md`](docs/credits_and_licenses.md).
 
 ### Sınır: bu repo vs geliştirme reposu
 
