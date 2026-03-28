@@ -44,5 +44,4 @@ Attach your **zipped Windows export** as the release asset (do not commit the zi
 
 ## After publish
 
-- **Private repo:** only users with access can download.
-- **Public repo:** anyone with the Releases link can download.
+- Confirm the Release appears on [**Releases**](https://github.com/umut-yasin-yilmaz/project-a-showcase/releases) and the zip downloads cleanly from a logged-out browser if the repository is public.

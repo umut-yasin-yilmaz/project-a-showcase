@@ -1,0 +1,9 @@
+# Never commit playtest/export binaries to this showcase repo (use GitHub Releases).
+*.zip
+*.exe
+*.pck
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini

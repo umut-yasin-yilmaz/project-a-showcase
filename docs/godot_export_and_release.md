@@ -31,10 +31,6 @@ Do **not** commit the zip or `build/` folder to git (`project-a` already ignores
 6. **Attach binaries:** drag your zip under **Attach binaries**.
 7. **Publish release**.
 
-## 4. While the repo is **private**
+## 4. Visibility note
 
-Only GitHub users **with access** to `project-a-showcase` can see Releases and download the zip. Invite collaborators under **Settings → Collaborators** if needed, or share the zip outside GitHub.
-
-## 5. After the repo goes **public**
-
-The same Release page becomes visible to everyone; you can add a line in the root README pointing to **Releases** for the latest zip.
+While this repository is **public**, the Release page and downloads are visible to everyone. If you ever need a **private** preflight, temporarily restrict repo access or share the zip through a trusted channel—then publish the same asset to a public Release when ready.

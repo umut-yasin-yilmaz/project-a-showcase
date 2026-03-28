@@ -55,14 +55,10 @@ MVP ve ilk demo için aşağıdaki sistemler **bilinçli olarak yok** (Brotato /
 - **Meta progression:** **MVP’de yok.** Sadece run içi materyal + dalga arası market; her run sıfırdan (kalıcı unlock / meta para yok). İleride “oyuncu sıkılıyor mu?” sorusuna göre hafif meta ayrı karar.
 
 ## 9) MVP balance goals
-İlk oynanabilir sürüm için **6 adet** denge hedefi (tempo, dalga eğrisi, TTK bandı, ekonomi/market, seçim anlamı, ölüm hissi): ayrıntılar `docs/mvp_balance_goals.md` dosyasında. Sayılar **v0 hipotezidir**; playtest ile güncellenir.
+İlk oynanabilir sürüm için **6 adet** denge hedefi (tempo, dalga eğrisi, TTK bandı, ekonomi/market, seçim anlamı, ölüm hissi) ve sayısal v0 hipotezleri, **ayrıntılı denge notları** ile birlikte **özel geliştirme deposundaki** `docs/mvp_balance_goals.md` dosyasında tutulur; playtest ile güncellenir.
 
-**Ölçekleme (v0):** Zorluk öncelikle **spawn / baskı** ile artar; düşman **HP** doğrusal çarpanla (`×1.00` … `×1.40`, 5 dalga). Ekonomi: **2 materyal/öldürme**, tavan **60**, en ucuz teklif **30** — tam metin aynı dosyada.
+**Ölçekleme (v0, özet):** Zorluk öncelikle **spawn / baskı** ile artar; düşman **HP** doğrusal çarpanla (`×1.00` … `×1.40`, 5 dalga). Ekonomi: **2 materyal/öldürme**, tavan **60**, en ucuz teklif **30**.
 
-## 10) Geliştirme planları (sıralı)
-- **MVP’ye kadar:** `docs/plan_mvp.md`
-- **MVP → Demo:** `docs/plan_mvp_to_demo.md`
-- **LibreOffice takip tabloları:** `docs/plan_mvp_table.csv`, `docs/plan_demo_table.csv`
-- **Test formları:** `docs/qa_checklist.md` (MVP + Demo kontrolleri)
-- **Risk kaydı:** `docs/risk_register.md` (scope, denge, RNG, performans, AI bağlamı, export)
+## 10) Geliştirme planları (bu vitrin deposunda)
+Bu repoda **yüksek seviye** blueprint, [`qa_checklist.md`](qa_checklist.md) ve [`risk_register.md`](risk_register.md) bulunur. **Sprint tabloları, ayrıntılı MVP→Demo planları ve CSV takip dosyaları** ticari süreç için **özel geliştirme deposunda** kalır; vitrin ile orayı senkron tutmak bakımcının sorumluluğundadır.
 

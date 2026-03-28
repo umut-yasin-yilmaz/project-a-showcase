@@ -4,7 +4,8 @@
 
 - **Project A** — game design, code, and curated materials are **© Umut Yasin YILMAZ**.  
 - **All rights reserved** unless you later publish a different license for specific parts.  
-- This repository is a **showcase / documentation** layer; full production source stays private.
+- This repository is a **showcase / documentation** layer; full production source stays private.  
+- Repository-wide legal notice: see root [`LICENSE`](../LICENSE).
 
 ## Engine
 
