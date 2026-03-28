@@ -5,8 +5,6 @@
 ![Stack](https://img.shields.io/badge/Stack-GDScript-2f2f2f?style=for-the-badge)
 ![Workflow](https://img.shields.io/badge/Workflow-Human--in--the--loop%20%2B%20AI-2f2f2f?style=for-the-badge)
 
-![Project A — showcase banner](assets/showcase/hero-mvp.svg)
-
 **Project A** is a **2D roguelite / survivor-like** in development—**Brotato-style** pacing, short runs, and shop choices between waves.
 
 This repository is the **public showcase**: design intent, process artifacts, screenshots, and **optional Windows playtest builds** via [Releases](https://github.com/umut-yasin-yilmaz/project-a-showcase/releases). **Full source and commercial assets stay in a private development repository.**
@@ -21,7 +19,7 @@ This repository is the **public showcase**: design intent, process artifacts, sc
 | **Engine** | Godot **4.6.1** |
 | **Language** | Typed **GDScript** (production) |
 | **Platform target** | PC (**Steam-first**; store page not linked here until that phase is real) |
-| **Workflow** | Solo developer; **AI-assisted**—large language models speed up implementation and refactors; **design goals, acceptance criteria, and final calls stay mine** |
+| **Author** | Solo developer — stack, AI-assisted workflow, and broader context: **[profile README](https://github.com/umut-yasin-yilmaz/umut-yasin-yilmaz)** (this repo stays project-focused). |
 
 ---
 
@@ -101,24 +99,7 @@ Maintainer workflow (export → zip → Release): [`docs/godot_export_and_releas
 
 Bu depo **herkese açık vitrin** katmanıdır: tasarım niyeti, süreç dokümanları, ekran görüntüleri ve isteğe bağlı **Windows playtest** paketleri [**Releases**](https://github.com/umut-yasin-yilmaz/project-a-showcase/releases) üzerinden. **Tam kaynak ve ticari assetler özel (private) geliştirme deposunda kalır.**
 
-**Yapay zekâ destekli** çalışıyorum: büyük dil modelleri uygulama ve **refaktör** işlerini hızlandırır; **tasarım hedefleri, kabul kriterleri ve son söz yine bende**.
-
-![MVP shipped](https://img.shields.io/badge/MVP-Shipped-2ea043?style=for-the-badge)
-![Engine](https://img.shields.io/badge/Engine-Godot%204.6.1-478CBF?style=for-the-badge&logo=godot-engine&logoColor=white)
-![Stack](https://img.shields.io/badge/Stack-GDScript-2f2f2f?style=for-the-badge)
-![Workflow](https://img.shields.io/badge/Workflow-Human--in--the--loop%20%2B%20AI-2f2f2f?style=for-the-badge)
-
-![Project A — vitrin](assets/showcase/hero-mvp.svg)
-
----
-
-## Bir bakışta
-
-| | |
-|:---|:---|
-| **Kim / süreç** | **Tek başıma** çalışan **bağımsız** vitrin bakımı; kod ve dokümanda **yapay zekâ araçları** hız sağlar. **Tasarım kararları, kabul kriterleri ve yayına neyin gideceği konusundaki onay bende** |
-| **Yığın** | **Godot 4.6.1**, **typed GDScript**, **Git** / **GitHub** |
-| **Şimdi** | **Project A**: Brotato esintili **2D roguelite**; özel (private) repoda **MVP yayında** (`mvp-0.1`). Sırada, hazır olduğunda demo cilâsı ve dağıtım |
+**Geliştirici ve süreç özeti** (yığın, yapay zekâ destekli çalışma, genel vitrin): **[GitHub profil README](https://github.com/umut-yasin-yilmaz/umut-yasin-yilmaz)** — aynı metinleri burada tekrarlamıyorum; aşağıdaki tablolar yalnızca **Project A** vitrinine ait.
 
 ---
 
@@ -178,18 +159,6 @@ Bakım akışı: [`docs/godot_export_and_release.md`](docs/godot_export_and_rele
 
 ---
 
-## Tek başıma üretimde yapay zekâ
-
-Yapay zekâyı **güç çarpanı** olarak kullanıyorum; **yaratıcı yönetmen** değil.
-
-| Uygun olduğu yer | Uygun olmadığı yer |
-|------------------|---------------------|
-| Tekrarlayan kod iskeleti, **refaktör**, daha hızlı iterasyon | Tasarım veya denge **zevkini** yerine koymak |
-| Doküman veya kontrol listesi taslağı | **Son** kilometre taşı veya yayın kararları |
-| Uygulama seçeneklerini keşfetmek | Özelliklerde **insan onayı** adımını atlamak |
-
----
-
 ## Sınır: bu repo vs geliştirme reposu
 
 **Bu vitrin reposunda bilerek olanlar:** vizyon, üst seviye oyun hedefleri, **MVP yayında** bağlamı, üretim içine sızmayan süreç dokümanları, portfolio için uygun ekran görüntüleri.
@@ -203,9 +172,3 @@ Yapay zekâyı **güç çarpanı** olarak kullanıyorum; **yaratıcı yönetmen*
 - **Vitrin deposu:** [`LICENSE`](LICENSE) ve [`docs/credits_and_licenses.md`](docs/credits_and_licenses.md).
 - **Güvenlik bildirimi:** [`SECURITY.md`](SECURITY.md).
 - **Katkı:** [`CONTRIBUTING.md`](CONTRIBUTING.md).
-
----
-
-## Sık kullandığım araçlar
-
-`Godot 4` · `GDScript` · `Git` / `GitHub` · `GitHub CLI`

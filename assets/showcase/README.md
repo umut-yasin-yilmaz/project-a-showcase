@@ -7,7 +7,7 @@ Public-safe images for the repository README and profile links.
 | File | Role |
 |------|------|
 | `mvp-screenshot-01.png` … `mvp-screenshot-03.png` | MVP build screenshots (align with Git tag **`mvp-0.1`** or update captions when you refresh the vitrin). |
-| `hero-mvp.svg` | Optional compact banner; referenced from the root README when you want a text-first hero. |
+| `hero-mvp.svg` | Optional banner asset; root `README.md` does not embed it by default (add an image line if you want a hero later). |
 
 ## Guidelines
 
